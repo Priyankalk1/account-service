@@ -14,7 +14,7 @@
 	<name>account-service</name>
 	<description>Service for Managing Accounts</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>17</java.version>
 		<spring-cloud.version>2021.0.3</spring-cloud.version>
 	</properties>
 	<dependencies>
@@ -47,6 +47,11 @@
 				<version>${spring-cloud.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
+			</dependency>
+			<dependency>
+				<groupId>com.netflix.eureka2</groupId>
+				<artifactId>eureka-server</artifactId>
+				<version>2.0.0-DP4</version>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
