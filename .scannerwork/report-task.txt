@@ -1,0 +1,6 @@
+projectKey=account-service
+serverUrl=http://localhost:9000
+serverVersion=9.6.0.59041
+dashboardUrl=http://localhost:9000/dashboard?id=account-service
+ceTaskId=AYLOF9881_YEAHZXwFLF
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AYLOF9881_YEAHZXwFLF
